@@ -12,6 +12,16 @@ header {
  0px;
 }
 
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 10px 30px;
+  margin: 0px auto;
+  background-color: darkblue;
+  border-radius: 10px 10px 0px 0px;
+}
+
 h3 {
   font-size: 24px;
 }
@@ -35,6 +45,16 @@ nav ul {
 nav li {
   display: inline-block;
   margin: 5px 10px;
+}
+
+hr {
+  border-top: dashed 3px darkblue;
+}
+
+.container {
+  border: 3px solid darkblue;
+  border-radius: 15px;
+  margin: 20px 0px;
 }
 
 footer {

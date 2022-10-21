@@ -1,0 +1,125 @@
+.color-container {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.color-panel {
+  display: inline-block;
+  padding: 5px 30px;
+  margin: 5px 5px;
+  color: white;
+  width: 130px;
+  border-radius: 10px;
+}
+
+.color-label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Colour Scheme 1 */
+#blue-yonder {
+  background-color: #587291;
+}
+
+#blue-green {
+  background-color: #2F97C1;
+}
+
+#dark-turquoise {
+  background-color: #1CCAD8;
+}
+
+#turquoise {
+  background-color: #15E6CD;
+}
+
+#spring-green {
+  background-color: #0CF574;
+}
+
+/* Color Scheme 2 */
+#electric-blue {
+  background-color: #373E98;
+}
+
+#hot-pink {
+  background-color: #F16775;
+}
+
+#shocking-yellow {
+  background-color: #FEE36E;
+}
+
+#chartreuse-ish {
+  background-color: #CEB92C;
+}
+
+#darkest-gray {
+  background-color: #2A2A2A;
+}
+
+/* Color Scheme 3 */
+#black {
+  background-color: #000000;
+}
+
+#medium-gray {
+  background-color: #565656;
+}
+
+#light-gray {
+  background-color: #9E9E9E;
+}
+
+#hot-orange {
+  background-color: #FBA92C;
+}
+
+#white {
+  background-color: #FFFFFF;
+  color: black;
+  border: 1px solid #9E9E9E;
+}
+
+/* Color Scheme 4 */
+#beige {
+  background-color: #C8B7A6;
+}
+
+#perriwinkle {
+  background-color: #7D94B5;
+}
+
+#dusty-rose {
+  background-color: #C29591;
+}
+
+#maroon-brown {
+  background-color: #703F37;
+}
+
+#muted-green {
+  background-color: #B6C199;
+}
+
+/* Color Scheme 5 */
+#light-lime {
+  background-color: #ABD699;
+}
+
+#fresh-lemon {
+  background-color: #FFE26A;
+}
+
+#teal {
+  background-color: #75C9B7;
+}
+
+#mint {
+  background-color: #C7DDCC;
+}
+
+#navy {
+  background-color: #16123F;
+}
