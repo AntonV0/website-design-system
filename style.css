@@ -1,0 +1,43 @@
+* {
+  font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  padding: 20px 50px;
+  border-radius: 20px 20px 0px
+ 0px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+nav {
+  padding: 5px;
+  background-color: darkblue;
+  text-align: center;
+  font-size: 18px;
+}
+
+nav a {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+footer {
+  font-style: italic;
+  font-size: 14px;
+}
