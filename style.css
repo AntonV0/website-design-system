@@ -3,7 +3,8 @@
 }
 
 header {
-  background-color: black;
+  background-color: rgb(0,19,54);
+  background: radial-gradient(circle, rgba(0,19,54,1) 0%, rgba(39,8,195,1) 100%);
   color: white;
   font-size: 26px;
   text-align: center;
@@ -23,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 nav {
@@ -47,17 +48,21 @@ nav li {
   margin: 5px 10px;
 }
 
-hr {
-  border-top: dashed 3px darkblue;
+footer {
+  font-style: italic;
+  font-size: 14px;
+  text-align: right;
 }
 
 .container {
   border: 3px solid darkblue;
   border-radius: 15px;
-  margin: 20px 0px;
+  margin: 50px 0px;
 }
 
-footer {
-  font-style: italic;
-  font-size: 14px;
+.container-paragraphs {
+  padding: 100px 40px 0px 40px;
+  font-size: 18px;
+  margin: auto;
+  max-width: 800px;
 }

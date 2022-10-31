@@ -4,26 +4,33 @@
     <title>Website Design System</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="colorSchemes.css" rel="stylesheet" type="text/css" />
+    <link href="fontCombinations.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cantarell&family=Cardo&family=DM+Sans&family=DM+Serif+Display&family=Fjalla+One&family=Hind&family=Inconsolata&family=Inter&family=Josefin+Sans&family=Karla&family=Libre+Baskerville&family=Lora&family=Montserrat&family=PT+Serif&family=Quattrocento+Sans&family=Source+Sans+Pro&family=Syne&family=Ultra&family=Yeseva+One&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Website Design System</h1>
-      <h3>A Codecademy Project by Anton Vlasenko</h3> 
+      <h3>A Codecademy Challenge Project by Anton Vlasenko</h3> 
     </header>
 
     <!-- Navigation -->
     <nav>
       <ul>
-        <li><a href="#">Color Schemes</a></li>
-        <li><a href="#">Font Combinations</a></li>
+        <li><a href="#color-schemes">Color Schemes</a></li>
+        <li><a href="#font-combinations">Font Combinations</a></li>
         <li><a href="#">Buttons</a></li>
       </ul>
     </nav>
 
-    <!-- Color Schemes -->
-    <section class="container" id="colour-schemes">
+    <!-- Color Schemes Section -->
+    <section class="container" id="color-schemes">
       <div class="h2-container">
-        <h2>Popular Color Schemes</h2>
+        <h2>Popular Website Color Schemes</h2>
+        <p class="container-paragraphs">Using color schemes can vastly improve your website's aesthetic, brand perception, and conversion rate. Each scheme suits some website styles more than others, so it's important to choose colors that not only compliment eachother, but also fit the main theme of your brand.<br><br>The five color schemes below have been used in many modern websites in recent years: </p>
+
+        <!-- Scheme 1 -->
         <div class="color-container" id="scheme-1">
           <div class="color-panel" id="blue-yonder">
             <p class="color-label">Blue Yonder</p>
@@ -46,7 +53,9 @@
             <p>#0CF574</p>
           </div>
         </div>
-        <hr>
+        <hr class="line-color">
+
+        <!-- Scheme 2 -->
         <div class="color-container" id="scheme-2">
           <div class="color-panel" id="electric-blue">
             <p class="color-label">Electric Blue</p>
@@ -69,7 +78,9 @@
             <p>#2A2A2A</p>
           </div>
         </div>
-        <hr>
+        <hr class="line-color">
+
+        <!-- Scheme 3 -->
         <div class="color-container" id="scheme-3">
           <div class="color-panel" id="black">
             <p class="color-label">Black</p>
@@ -92,7 +103,9 @@
             <p>#FFFFFF</p>
           </div>
         </div>
-        <hr>
+        <hr class="line-color">
+
+        <!-- Scheme 4 -->
         <div class="color-container" id="scheme-4">
           <div class="color-panel" id="beige">
             <p class="color-label">Beige</p>
@@ -115,7 +128,9 @@
             <p>#B6C199</p>
           </div>
         </div>
-        <hr>
+        <hr class="line-color">
+
+        <!-- Scheme 5 -->
         <div class="color-container" id="scheme-5">
           <div class="color-panel" id="light-lime">
             <p class="color-label">Light Lime</p>
@@ -141,10 +156,141 @@
       </div>
     </section>
 
-    <!--Font Types Section-->
-    <section class="container">
+    <!-- Font Combinations Section -->
+    <section class="container" id="font-combinations">
       <h2>Common Font Combinations</h2>
-      <div class="font-container"></div>
+      <p class="container-paragraphs">Here are some of my favorite font combinations that can really make a website stand out and look professional. All of these fonts can be found in the <a href="https://fonts.google.com/" target="_blank">Google Fonts API</a>.</p>
+      <div class="font-container">
+
+        <!-- Combination 1 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Barlow+Condensed" target="_blank">Barlow Condensed</a> &
+              <a href="https://fonts.google.com/specimen/Cantarell" target="_blank">Cantarell</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="barlow-condensed">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="cantarell">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 2 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Cardo" target="_blank">Cardo</a> &
+              <a href="https://fonts.google.com/specimen/DM+Sans" target="_blank">DM Sans</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="cardo">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="dm-sans">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 3 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/DM+Serif+Display" target="_blank">DM Serif Display</a> &
+              <a href="https://fonts.google.com/specimen/Fjalla+One" target="_blank">Fjalla One</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="dm-serif-display">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="fjalla-one">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 4 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Hind" target="_blank">Hind</a> &
+              <a href="https://fonts.google.com/specimen/Inconsolata" target="_blank">Inconsolata</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="hind">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="inconsolata">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 5 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Inter" target="_blank">Inter</a> &
+              <a href="https://fonts.google.com/specimen/Josefin+Sans" target="_blank">Josefin Sans</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="inter">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="josefin-sans">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 6 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Karla" target="_blank">Karla</a> & 
+              <a href="https://fonts.google.com/specimen/Libre+Baskerville" target="_blank">Libre Baskerville</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="karla">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="libre-baskerville">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 7 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Lora" target="_blank">Lora</a> &
+              <a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="lora">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="montserrat">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 8 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/PT+Serif" target="_blank">PT Serif</a> &
+              <a href="https://fonts.google.com/specimen/Quattrocento+Sans" target="_blank">Quattrocento Sans</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="pt-serif">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="quattrocento-sans">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 9 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Source+Sans+Pro" target="_blank">Source Sans Pro</a> & 
+              <a href="https://fonts.google.com/specimen/Syne" target="_blank">Syne</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="source-sans-pro">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="syne">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+        <hr class="line-font">
+
+        <!-- Combination 10 -->
+        <div class="combination">
+          <p class="combination-name">
+            <b>-
+              <a href="https://fonts.google.com/specimen/Ultra" target="_blank">Ultra</a> &
+              <a href="https://fonts.google.com/specimen/Yeseva+One" target="_blank">Yeseva One</a>
+            -</b>
+          </p>
+          <p class="title-fonts" id="ultra">The Quick Brown Fox Jumps Over the Lazy Dog</p>
+          <p class="paragraph-fonts" id="yeseva-one">Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.<br><br>- William Strunk, Jr.</p>
+        </div>
+      </div>
     </section>
 
     <section class="container">

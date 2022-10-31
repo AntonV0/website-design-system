@@ -1,0 +1,111 @@
+hr.line-font {
+  border-top: solid 3px black;
+  width: 200px;
+}
+
+.combination {
+  margin: 100px 30px;
+}
+
+.combination a {
+  color: darkblue;
+}
+.combination-name, .title-fonts {
+  text-align: center;
+}
+
+.combination-name {
+  font-size: 24px;
+  color: darkblue;
+}
+
+.title-fonts {
+  font-size: 36px;
+}
+
+.paragraph-fonts {
+  font-size: 18px;
+  margin: auto;
+  max-width: 550px;
+}
+
+/* Fonts from Google Fonts API */
+#barlow-condensed {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+#cantarell {
+  font-family: 'Cantarell', sans-serif;
+}
+
+#cardo {
+  font-family: 'Cardo', serif;
+}
+
+#dm-sans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+#dm-serif-display {
+  font-family: 'DM Serif Display', serif;
+}
+
+#fjalla-one {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#hind {
+  font-family: 'Hind', sans-serif;
+}
+
+#inconsolata {
+  font-family: 'Inconsolata', monospace;
+}
+
+#inter {
+  font-family: 'Inter', sans-serif;
+}
+
+#josefin-sans {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#karla {
+  font-family: 'Karla', sans-serif;
+}
+
+#libre-baskervilla {
+  font-family: 'Libre Baskerville', serif;
+}
+
+#lora {
+  font-family: 'Lora', serif;
+}
+
+#montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#pt-serif {
+  font-family: 'PT Serif', serif;
+}
+
+#quattrocento-sans {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#source-sans-pro {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#syne {
+  font-family: 'Syne', sans-serif;
+}
+
+#ultra {
+  font-family: 'Ultra', serif;
+}
+
+#yeseva-one {
+  font-family: 'Yeseva One', sans-serif;
+}
