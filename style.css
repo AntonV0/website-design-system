@@ -57,12 +57,18 @@ footer {
 .container {
   border: 3px solid darkblue;
   border-radius: 15px;
-  margin: 50px 0px;
+  margin: 50px 0px 100px;
 }
 
 .container-paragraphs {
   padding: 100px 40px 0px 40px;
   font-size: 18px;
   margin: auto;
-  max-width: 800px;
+  max-width: 900px;
+}
+
+footer {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
 }
